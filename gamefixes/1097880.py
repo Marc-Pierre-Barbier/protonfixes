@@ -11,5 +11,6 @@ def main():
     util.use_win32_prefix()
 
     # The whole game is only videos and require wmp9 & quartz
+    util.protontricks('winxp')
     util.protontricks('quartz')
     util.protontricks('wmp9')
